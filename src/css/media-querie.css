@@ -1,0 +1,147 @@
+@media screen and (min-width: 1280px){
+    .decodificador__retorno__descricao {
+        top: 22%;
+        right: 18%;
+    }
+}
+
+@media screen and (width: 1024px){
+    .decodificador,
+    .decodificador__campo__botoes{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .decodificador__retorno__campo{
+        right: 0;
+        margin-bottom: 1rem;
+    }
+
+    .decodificador__retorno__descricao__img{
+        display: none;
+    }
+
+    .decodificador__retorno__descricao{
+        bottom: 14%;
+    }
+
+    .decodificador__retorno__descricao__atencao{
+        width: 20rem;
+        padding: .9rem;
+        right: 67%;
+    }
+
+    .botao{
+        width: 300px;
+        height: 56px;
+    }
+
+    .copiar-botao{
+        right: -250%;
+        bottom: 20%;
+    }
+
+}
+
+@media screen and (max-width: 1022px){
+    .decodificador,
+    .decodificador__campo__botoes{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .decodificador__campo__entrada{
+        width: 32rem;
+        height: 21.8rem;
+    }
+
+    .decodificador__retorno__campo{
+        right: 0;
+        margin-bottom: 1rem;
+    }
+
+    .decodificador__retorno__descricao__img{
+        display: none;
+    }
+
+    .decodificador__retorno__descricao{
+        bottom: 25%;
+        left: -150%;
+    }
+
+    .decodificador__retorno__descricao__atencao{
+        width: 20rem;
+        padding: .9rem;
+        right: 53%;
+    }
+
+    .copiar-botao{
+        right: -250%;
+        bottom: 20%;
+    }
+
+    .botao{
+        width: 300px;
+        height: 56px;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    .header{
+        margin: 3% 7%;
+    }
+
+    .header .header_titulo{
+        font-size: 1.2rem;
+    }
+
+    .decodificador{
+        margin: 4%;
+        gap: 5%;
+    }
+
+    .decodificador__campo{
+        margin: 0% 2%;
+    }
+
+    .decodificador__campo__entrada{
+        width: 20rem;
+        height: 17rem;
+    }
+
+    .decodificador__campo__exclamacao{
+        margin: .8rem 0;
+        gap: .9rem;
+    }
+
+    .decodificador__retorno{
+        margin: .5rem 0 2rem 0;
+    }
+
+    .decodificador__retorno__campo{
+        width: 320px;
+        height: 170px;
+    }
+
+    .decodificador__retorno__descricao{
+        left: 58%;
+    }
+}
+
+@media screen and (max-width: 763px){
+    .decodificador{
+        margin-top: 13%;
+    }
+
+    .decodificador__campo__exclamacao img{
+        width: 1.5rem;
+        height: 1.8rem;
+
+    }
+    .decodificador__retorno__descricao{
+        bottom: 15%;
+        left: 85%;
+    }
+}
