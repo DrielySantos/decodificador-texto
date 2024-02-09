@@ -20,7 +20,7 @@ Tela do projeto em responsivo
 
 ![Descricao da imagem](./src/assets/prt-responsive.png)
 
-## 📁 Acesso ao projeto
+## 💻 Link do projeto
 
-Você pode [acessar o código fonte do projeto inicial](https://github.com/alura-cursos/android-com-kotlin-personalizando-ui/tree/projeto-inicial) 
+ Aqui você pode [acessar o projeto em funcionamento](https://decodificador-texto-three.vercel.app/).
 
